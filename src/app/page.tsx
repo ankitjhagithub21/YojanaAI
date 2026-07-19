@@ -12,8 +12,8 @@ export default function Home() {
           A production-ready foundation for building your next application.
         </p>
         <Button asChild>
-          <a href="https://nextjs.org/docs" rel="noreferrer" target="_blank">
-            Read the docs <ArrowRight aria-hidden="true" />
+          <a href="/find-jobs">
+            Find government jobs <ArrowRight aria-hidden="true" />
           </a>
         </Button>
       </section>

@@ -11,6 +11,15 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+## Google AI Studio setup
+
+Copy `.env.example` to `.env.local` and set `GOOGLE_API_KEY`. This value is read only
+by server-side code and must never be exposed through a `NEXT_PUBLIC_` variable.
+
+`POST /api/ai/latest-vacancies` accepts a candidate profile and returns structured,
+current government-vacancy recommendations. The endpoint uses the Google AI Studio
+Interactions API with Google Search and JSON Schema structured output.
+
 ## Scripts
 
 | Command                | Purpose                                     |
